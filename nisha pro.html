@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nisha Tips | Free Cricket Predictions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #38bdf8;
+    }
+
+    .headline {
+      font-size: 26px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .proof {
+      color: #22c55e;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .timer {
+      font-size: 32px;
+      margin: 20px 0;
+      color: #facc15;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #2563eb;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .cta-btn:hover {
+      background: #1d4ed8;
+    }
+
+    .features {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo">🔥 Nisha Tips</div>
+
+  <div class="headline">
+    Today’s Cricket Predictions FREE 🏏
+  </div>
+
+  <div class="proof">✅ Daily Match Insights & Updates</div>
+
+  <div class="timer" id="countdown">00:30</div>
+
+  <a href="https://t.me/+0N6G9lOjcAVhOTVl" class="cta-btn">
+    👉 JOIN FREE TELEGRAM CHANNEL
+  </a>
+
+  <div class="features">
+    ✔️ Daily Match Predictions <br>
+    ✔️ Toss & Session Updates <br>
+    ✔️ Limited Time Free Access ⏳
+  </div>
+
+  <div class="footer">
+    Join before timer ends to get today’s update 🔥
+  </div>
+
+</div>
+
+<script>
+  let time = 30;
+  const countdown = document.getElementById("countdown");
+
+  const timer = setInterval(() => {
+    let seconds = time < 10 ? "0" + time : time;
+    countdown.innerHTML = "00:" + seconds;
+
+    time--;
+
+    if (time < 0) {
+      clearInterval(timer);
+      window.location.href = "https://t.me/+0N6G9lOjcAVhOTVl";
+    }
+  }, 1000);
+</script>
+
+</body>
+</html>
